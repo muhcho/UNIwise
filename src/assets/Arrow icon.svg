@@ -1,0 +1,5 @@
+<img
+  src={ArrowIcon}
+  alt="Dropdown arrow"
+  className={`navbar__arrow ${activeMenu === item ? "rotated" : ""}`}
+/>
