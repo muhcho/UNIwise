@@ -20,6 +20,9 @@ import whitepapersIcon from "../assets/Whitepapers.svg";
 import reachOutIcon from "../assets/reach out.svg";
 import newsletterIcon from "../assets/Newsletter1.svg";
 
+import UICard from "./UICard";
+
+
 const Navbar = () => {
   const [activeMenu, setActiveMenu] = useState(null);
   const [hoveredItem, setHoveredItem] = useState(null);
@@ -176,7 +179,14 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <div className="navbar__dropdown-right">{/* Future cards */}</div>
+            <div className="navbar__dropdown-right">
+  <h4 className="dropdown__title">Latest Updates</h4>
+  <hr className="dropdown__divider" />
+  <div className="ui-card__wrapper">
+    <UICard />
+    <UICard />
+  </div>
+</div>
           </div>
         </div>
       )}
