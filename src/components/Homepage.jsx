@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import CompleteAssessment from "./CompleteAssessment";
 import VideoTestimonialSection from "./VideoTestimonialSection";
+import CallToActionBanner from "./CallToActionBanner";
+
 
 
 // Assets
@@ -217,7 +219,10 @@ const HomePage = () => {
       </section>
 
       <VideoTestimonialSection />
-      
+
+      <CallToActionBanner />
+
+
     </>
   );
 };
