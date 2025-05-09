@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import CompleteAssessment from "./CompleteAssessment";
 import VideoTestimonialSection from "./VideoTestimonialSection";
 import CallToActionBanner from "./CallToActionBanner";
+import FAQAccordion from "./FAQAccordion";
+
 
 
 
@@ -221,6 +223,8 @@ const HomePage = () => {
       <VideoTestimonialSection />
 
       <CallToActionBanner />
+
+      <FAQAccordion />
 
 
     </>
