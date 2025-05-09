@@ -85,7 +85,7 @@ const HomePage = () => {
           <div className="whychoose-left">
             <h2 className="whychoose-title">
               WHY CHOOSE <br />
-              UNIwise?
+              UNIWISE?
             </h2>
             <div className="feature-card-large">
               <h3>End-to-End Assessment</h3>
