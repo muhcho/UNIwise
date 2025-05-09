@@ -590,3 +590,150 @@ main {
   line-height: 1.5;
   color: #494C4B;
 }
+
+
+
+
+/* === Complete Assessment Section === */
+.complete-assessment-section {
+  background-color: white;
+  padding: 6rem 1.5rem 8rem;
+}
+
+.complete-assessment-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+  height: 600px; 
+  align-items: stretch;
+}
+
+/* Left Column */
+.complete-assessment-left {
+  flex: 1;
+  background-color: #F1FBFC;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.assessment-header {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  min-height: auto;
+  
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem; 
+}
+
+.assessment-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 0.5rem; /* less space between title and list */
+  color: #1a1a1a;
+  max-width: 520px; /* reduced width to break to 2 lines sooner */
+}
+
+.assessment-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 🔹 aligns bullet content to top */
+  gap: 1rem;
+  margin-bottom: 2rem; /* optional: reduce bottom space */
+  padding: 0;
+}
+
+.assessment-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1a1a1a;
+}
+
+.assessment-list li img {
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+/* Tabs */
+.assessment-tabs {
+  display: flex;
+  gap: 1rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  width: fit-content;
+}
+
+.assessment-tab {
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 500;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.assessment-tab:hover {
+  background-color: #e9f7f1;
+}
+
+.assessment-tab.active {
+  background-color: #113b2f;
+  color: white;
+}
+
+/* Right Column */
+.complete-assessment-right {
+  flex: 1;
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; /* Add padding to keep image contained */
+}
+
+
+.bg-lines {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.assessment-illustration {
+  width: 80%;            /* Shrink image */
+  max-width: 400px;      /* Prevent large image overflow */
+  height: auto;
+  z-index: 1;
+  object-fit: contain;
+}
