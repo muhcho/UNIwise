@@ -1112,7 +1112,7 @@ main {
 }
 
 .footer-container {
-  max-width: 1280px;
+  max-width: 1230px;
   margin: 0 auto;
 }
 
@@ -1127,6 +1127,7 @@ main {
 .footer-logo {
   height: 82px;
   object-fit: contain;
+  margin-left: -0.5rem;
 }
 
 .footer-description {
@@ -1173,8 +1174,8 @@ main {
 .footer-bottom {
   margin-top: 6rem;
   padding-top: 6rem;
-  padding-left:5rem;
-  padding-right: 5rem;
+  padding-left:6rem;
+  padding-right: 6rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

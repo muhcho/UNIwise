@@ -1,6 +1,6 @@
 import React from "react";
 
-import uniwiseLogo from "../assets/NEW LOGO.svg";
+import uniwiseLogo from "../assets/newlogoicon.svg";
 import linkedinIcon from "../assets/mdi_linkedin.svg";
 import twitterIcon from "../assets/fa6-brands_square-x-twitter.svg";
 
