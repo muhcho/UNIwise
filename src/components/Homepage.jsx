@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./NavBar";
 import CompleteAssessment from "./CompleteAssessment";
 import VideoTestimonialSection from "./VideoTestimonialSection";
 import CallToActionBanner from "./CallToActionBanner";
